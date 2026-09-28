@@ -48,7 +48,7 @@ jobs:
 
     - name: Build Debug APK
 
-      run: gradle assembleDebug
+      run: gradle :app:assembleDebug
 
 
 
